@@ -15,7 +15,7 @@ $(document).ready(function () {
     ) {
       $(".about__num").css("opacity", "1");
       $(".about__num").spincrement({
-        thousandSeparator: "",
+        thousandSeparator: " ",
         duration: 2000,
       });
       show = false;
