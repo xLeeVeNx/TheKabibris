@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/main-rtl.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
 
   <script src="js/main.min.js" defer></script>
   <script src="js/selectPhone.js" defer></script>
@@ -19,7 +19,7 @@
       <div class="header__inner">
         <div class="header__top">
           <nav class="menu">
-            <a class="logo" href="index-he.html">
+            <a class="logo" href="index-en.html">
               <img class="logo__image" src="images/logo.svg" alt="Logotype">
               <span class="logo__name">TheKalibris</span>
             </a>
@@ -28,51 +28,51 @@
 
             <ul class="menu__list">
               <li class="menu__item">
-                <a class="menu__link" href="index-he.html">דף הבית</a>
+                <a class="menu__link" href="index-en.html">Home Page</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__link" href="why-us-he.html">היתרונות שלנו</a>
+                <a class="menu__link" href="why-us-en.html">Why us</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__link" href="how-work-he.html">כיצד זה עובד</a>
+                <a class="menu__link" href="how-work-en.html">How it works</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__link" href="prepaid-card-he.html">כרטיס נטען</a>
+                <a class="menu__link" href="prepaid-card-en.html">Prepaid Card</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__link" href="about-he.html">מי אנחנו</a>
+                <a class="menu__link" href="about-en.html">About</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__link" href="fees-he.html">עמלות</a>
+                <a class="menu__link" href="fees-en.html">Fees</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__link" href="contact-he.html">יצירת קשר</a>
+                <a class="menu__link" href="contact-en.html">Contact</a>
               </li>
 
               <li class="menu__box">
-                <a class="menu__reg" href="registration-he.html">הרשמה</a>
-                <a class="menu__login" href="login-he.html">התחברות</a>
+                <a class="menu__reg" href="registration-en.html">Sign up</a>
+                <a class="menu__login" href="login-en.html">Log in</a>
               </li>
 
               <li class="menu__speeches">
-                <a class="menu__speech" href="registration.html">En</a>
-                <a class="menu__speech" href="registration-he.html">He</a>
+                <a class="menu__speech" href="registration-en.html">En</a>
+                <a class="menu__speech" href="registration.html">He</a>
                 <a class="menu__speech" href="registration-ru.html">Ru</a>
               </li>
             </ul>
 
-            <a class="menu__signin" href="login-he.html">התחברות</a>
+            <a class="menu__signin" href="login-en.html">Log in</a>
 
             <select class="menu__langs">
-              <option class="menu__lang" data-ref="registration.html">En</option>
+              <option class="menu__lang" data-ref="registration-en.html" selected>En</option>
               <option class="menu__lang" data-ref="registration-ru.html">Ru</option>
-              <option class="menu__lang" data-ref="registration-he.html" selected>He</option>
+              <option class="menu__lang" data-ref="registration.html">He</option>
             </select>
           </nav>
         </div>
@@ -84,21 +84,21 @@
     <div class="account">
       <div class="container">
         <div class="account__inner">
-          <h2 class="wow animate__animated animate__bounceInLeft global-title">צור חשבון חדש</h2>
+          <h2 class="wow animate__animated animate__bounceInLeft global-title">Account Registration</h2>
 
           <form class="account__form" action="#">
             <div class="wow animate__animated animate__bounceInLeft account__form-inner">
               <div class="account__wrap">
-                <label class="account__label">מספר טלפון</label>
+                <label class="account__label">Mobile Phone</label>
 
                 <div class="account__select-box">
                   <div class="account__select-value">+7</div>
   
                   <select class="account__select">
-                    <option value="+972">+972 ישראל</option>
-                    <option value="+7" selected>+7 Россия</option>
-                    <option value="+90">+90 Türkiye</option>
-                    <option value="+380">+380 Україна</option>
+                    <option value="+972">+972 Israel</option>
+                    <option value="+7" selected>+7 Russia</option>
+                    <option value="+90">+90 Turkey</option>
+                    <option value="+380">+380 Ukraine</option>
                   </select>
   
                   <input class="account__select-input" type="text">
@@ -106,29 +106,29 @@
               </div>
 
               <div class="account__wrap">
-                <label class="account__label">סיסמא</label>
+                <label class="account__label">Password</label>
 
                 <div class="account__input-box">
-                  <input class="account__input" type="password" autocomplete="on">
+                  <input class="account__input" type="password" placeholder="Enter your password" autocomplete="on">
                 </div>
               </div>
 
               <div class="account__wrap">
-                <label class="account__label">חזור על הסיסמא החדשה שנית</label>
+                <label class="account__label">Confirm Password</label>
 
                 <div class="account__input-box">
-                  <input class="account__input" type="password" autocomplete="on">
+                  <input class="account__input" type="password" placeholder="Confirm your password" autocomplete="on">
                 </div>
               </div>
             </div>
 
             <div class="animate__animated animate__fadeInUpBig animate__fast account__box">
-              <button class="account__button" type="submit">צור חשבון</button>
+              <button class="account__button" type="submit">Create Account</button>
 
               <div class="account__checkbox-wrap">
                 <input class="account__checkbox" id="agree" type="checkbox">
 
-                <label class="account__checkbox-label" for="agree"> אני מסכים עם <a href="#">התקנון ותנאי השימוש באתר</a></label>
+                <label class="account__checkbox-label" for="agree">I agree to the <a href="#">terms of use</a></label>
               </div>
             </div>
           </form>
@@ -140,7 +140,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
-        <a class="footer__logo" href="index-ru.html">
+        <a class="footer__logo" href="index-en.html">
           <img class="footer__logo-img" src="images/logo.svg" alt="Logotype">
           <span class="footer__logo-name">TheKalibris</span>
         </a>
@@ -148,47 +148,47 @@
         <div class="footer__content">
           <ul class="footer__list">
             <li class="footer__item">
-              <a class="footer__link" href="index-ru.html">דף הבית</a>
+              <a class="footer__link" href="index-en.html">Home Page</a>
             </li>
 
             <li class="footer__item">
-              <a class="footer__link" href="how-work-ru.html">כיצד זה עובד</a>
+              <a class="footer__link" href="how-work-en.html">How it works</a>
             </li>
 
             <li class="footer__item">
-              <a class="footer__link" href="about-ru.html">מי אנחנו</a>
+              <a class="footer__link" href="about-en.html">About</a>
             </li>
 
             <li class="footer__item">
-              <a class="footer__link" href="contact-ru.html">יצירת קשר</a>
+              <a class="footer__link" href="contact-en.html">Contact</a>
             </li>
 
             <li class="footer__item">
-              <a class="footer__link" href="why-us-ru.html">היתרונות שלנו</a>
+              <a class="footer__link" href="why-us-en.html">Why us</a>
             </li>
 
             <li class="footer__item">
-              <a class="footer__link" href="prepaid-card-ru.html">כרטיס נטען</a>
+              <a class="footer__link" href="prepaid-card-en.html">Prepaid Card</a>
             </li>
 
             <li class="footer__item">
-              <a class="footer__link" href="fees-ru.html">עמלות</a>
+              <a class="footer__link" href="fees-en.html">Fees</a>
             </li>
           </ul>
 
           <div class="footer__contact">
             <div class="footer__contact-item">
-              <span>צור קשר:</span> 
+              <span>Contact us:</span> 
               <a href="mailto:Support@thekalibris.com">Support@thekalibris.com</a>
             </div>
 
             <div class="footer__contact-item">
-              <span>זמן עבודה:</span>
-              9:00 - 23:00 (כל יום, ללא חגים)
+              <span>Working Time:</span>
+              9:00 - 23:00 GMT+3  (every day, without holidays)
             </div>
 
             <div class="footer__contact-item">
-              <span>TheKalibris © כל הזכויות שמורות</span>
+              <span>TheKalibris © All rights reserved</span>
               2015-2021
             </div>
           </div>
